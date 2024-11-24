@@ -74,7 +74,7 @@ class _NotePageState extends State<NotePage> {
                         border: OutlineInputBorder(),
                       ),
                       validator: (value) =>
-                      value == null || value.trim().isEmpty
+                      value == null || value.isEmpty
                           ? 'Note cannot be empty'
                           : null,
                     ),
